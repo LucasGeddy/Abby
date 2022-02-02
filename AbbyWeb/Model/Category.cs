@@ -9,5 +9,6 @@ namespace AbbyWeb.Model
         [Required]
         public string Name { get; set; }
         public int DisplayOrder { get; set; }
+        public DateTime CreatedOn { get; set; } = DateTime.Now;
     }
 }
